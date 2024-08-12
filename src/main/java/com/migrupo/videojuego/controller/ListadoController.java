@@ -25,7 +25,7 @@ public class ListadoController {
         model.addAttribute("videojuegos", destacados);
         System.out.println("videojuegos destacados " + destacados);
 
-        for (int i =10; i<10;i++)
+        //for (int i =10; i<10;i++)
             System.out.println("saliendo del método ");
         return "listado test Jenkins 2";
 
